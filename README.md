@@ -4,4 +4,4 @@ We present the REGALADE catalog, a compilation of galaxies with their distances,
 
 REGALADE combines data from widely used catalogs, including GLADE, NED Local Volume Survey, SDSS, Legacy Survey, and Pan-STARRS, with additional cross-matching to refine distance measurements.
 
-The REGALADE catalog contains over 36 million galaxies in the Local Universe (D < 2 Gpc). A paper is in preparation to demonstrate its utility through two case studies on optical transients and ultraluminous X-ray sources.
+The REGALADE catalog contains over 36 million galaxies in the Local Universe (D < 2 Gpc). A paper is in preparation to showcase its use through 2 case studies: optical transients and ultraluminous X-ray sources.
