@@ -1,6 +1,6 @@
 # Revised GAlaxy List for Advanced Detector Era
 
-We present the REGALADE catalog, a compilation of galaxies with their distances, magnitudes and area information, designed to support transient science. By merging data from key surveys, REGALADE aims to provide a more complete census of galaxies, enabling accurate distance estimates and transient matching.
+We present the REGALADE catalog, a compilation of galaxies with their distances, magnitudes, angular extent and stellar masses, designed to support transient and multi-messenger science. By merging data from key surveys, REGALADE aims to provide a more complete census of galaxies, enabling accurate distance estimates and event matching.
 
 REGALADE combines data from curated galaxy catalogs and imaging surveys, including GLADE, NED Local Volume Survey, Siena Galaxy Atlas, the Legacy Surveys, SDSS, and Pan-STARRS, with additional cross-matching to refine distance measurements.
 
