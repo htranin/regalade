@@ -2,7 +2,7 @@
 
 We present the **REGALADE catalog**, a compilation of galaxies with their distances, magnitudes, angular extents, and stellar masses, designed to support transient and multi-messenger astronomy.  
 
-By merging data from widely used galaxy catalogs and deep surveys, REGALADE provides a more complete census of galaxies in the Local Universe, enabling accurate distance estimates and improved matching for transients and gravitational-wave events.
+By merging data from curated galaxy catalogs and deep surveys, REGALADE provides a more complete census of galaxies in the Local Universe, enabling accurate distance estimates and improved matching for transients and gravitational-wave events.
 
 ---
 
