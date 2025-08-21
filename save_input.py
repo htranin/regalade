@@ -11,8 +11,6 @@ and writes a subset of columns
 from astropy.io import fits
 import numpy as np
 import os
-from tqdm import tqdm
-import pandas as pd
 from astropy.coordinates import SkyCoord
 from astropy.table import Table
 
