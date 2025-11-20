@@ -69,4 +69,5 @@ if __name__=="__main__":
     else:
         ra,dec = 359.5929778540899, -20.3187275380
 
-    save_cutout(ra,dec,"Simbad_cutout_263.jpg")
+    save_cutout(ra,dec,"Be_star_cutout_example.jpg")
+
