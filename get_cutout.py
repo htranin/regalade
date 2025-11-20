@@ -34,6 +34,8 @@ def save_cutout(ra, dec, fname):
           and (abs(dec+73)>1 or abs(ra-13)>3) # SMC center not covered
           and (abs(ra-80)>7 or abs(dec+68)>3)): # LMC center not covered
         url = 'https://www.legacysurvey.org/viewer/cutout.jpg?layer=ls-dr10&ra=%s&dec=%s&zoom=13'%(ra,dec)
+    elif (abs(b)<9.5):
+        url = 'https://decaps.legacysurvey.org/viewer/cutout.jpg?layer=decaps2&ra=%s&dec=%s&zoom=13'%(ra,dec)
     else: # fall back to lower resolution / depth
         url = 'https://archive.stsci.edu/cgi-bin/dss_search?v=poss2ukstu_red&r=%s&d=%s&e=J2000&h=2.1&w=2.1&f=gif'%(ra,dec)
         
@@ -70,5 +72,6 @@ if __name__=="__main__":
         ra,dec = 359.5929778540899, -20.3187275380
 
     save_cutout(ra,dec,"Be_star_cutout_example.jpg")
+
 
 
