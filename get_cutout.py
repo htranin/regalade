@@ -24,7 +24,7 @@ def save_cutout(ra, dec, fname):
     coo = SkyCoord(ra, dec, unit='deg', frame='icrs')
     b = coo.galactic.b.deg # Galactic latitude
     if dec>-30: # South is not covered by PanSTARRS
-        url = f'https://ps1images.stsci.edu/cgi-bin/ps1cutouts?layer=ps1&pos={ra} {dec}&filter=color&filter=g&filter=z&filter=i&filetypes=stack&size=504&format=png&autoscale=99.500000&output_size=200'
+        url = f'https://ps1images.stsci.edu/cgi-bin/ps1cutouts?layer=ps1&pos={ra} {dec}&filter=color&filter=g&filter=z&filter=i&filetypes=stack&size=504&format=jpg&autoscale=99.500000&output_size=200'
         response = requests.get(url, timeout=15)
         soup = BeautifulSoup(response.text, "html.parser")
         td_tag = soup.find("td")
@@ -70,4 +70,5 @@ if __name__=="__main__":
         ra,dec = 359.5929778540899, -20.3187275380
 
     save_cutout(ra,dec,"Be_star_cutout_example.jpg")
+
 
