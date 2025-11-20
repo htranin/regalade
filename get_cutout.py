@@ -67,5 +67,6 @@ if __name__=="__main__":
     if len(sys.argv)>2:
         ra,dec = float(sys.argv[1]),float(sys.argv[2])
     else:
-        ra,dec = 359.5929778540899, -20.31872753802#101.26433697888, -0.57053243215
+        ra,dec = 359.5929778540899, -20.3187275380
+
     save_cutout(ra,dec,"Simbad_cutout_263.jpg")
