@@ -50,17 +50,29 @@ Scripts:
 
 ---
 
-## Data access
 
-The REGALADE catalog is available on [VizieR](https://vizier.cds.unistra.fr/viz-bin/VizieR-3?-source=J/A%2bA/706/A284/regalade), interactively displayed on https://blackpearl.blackgem.org/regalade.php, and can be downloaded as [one FITS file](https://drive.google.com/file/d/10CJa5xheifY03dOboTlhM_fvruNXxHor/view?usp=drive_link) (10 GB) or 10 chunks (fewer columns, 500 MB per chunk) at the following links:
-- https://blackpearl.blackgem.org/regalade_thin_0_36.csv
-- https://blackpearl.blackgem.org/regalade_thin_36_72.csv
-- https://blackpearl.blackgem.org/regalade_thin_72_108.csv
-- https://blackpearl.blackgem.org/regalade_thin_108_144.csv
-- https://blackpearl.blackgem.org/regalade_thin_144_180.csv
-- https://blackpearl.blackgem.org/regalade_thin_180_216.csv
-- https://blackpearl.blackgem.org/regalade_thin_216_252.csv
-- https://blackpearl.blackgem.org/regalade_thin_252_288.csv
-- https://blackpearl.blackgem.org/regalade_thin_288_324.csv
-- https://blackpearl.blackgem.org/regalade_thin_324_360.csv
+## Data Access
 
+The REGALADE catalog is available on VizieR at the following link:
+[https://vizier.cds.unistra.fr/viz-bin/VizieR-3?-source=J/A%2bA/706/A284/regalade](https://vizier.cds.unistra.fr/viz-bin/VizieR-3?-source=J/A%2bA/706/A284/regalade)
+
+An interactive visualization is also available at:
+[https://blackpearl.blackgem.org/regalade.php](https://blackpearl.blackgem.org/regalade.php)
+
+The full catalog can be downloaded as a single **FITS file (10 GB)**:
+[https://drive.google.com/file/d/10CJa5xheifY03dOboTlhM_fvruNXxHor/view?usp=drive_link](https://drive.google.com/file/d/10CJa5xheifY03dOboTlhM_fvruNXxHor/view?usp=drive_link)
+
+For easier handling, a **lighter version with fewer columns** is also provided in **10 CSV chunks (~500 MB each)** covering successive right ascension intervals:
+
+* [https://blackpearl.blackgem.org/regalade_thin_0_36.csv](https://blackpearl.blackgem.org/regalade_thin_0_36.csv)
+* [https://blackpearl.blackgem.org/regalade_thin_36_72.csv](https://blackpearl.blackgem.org/regalade_thin_36_72.csv)
+* [https://blackpearl.blackgem.org/regalade_thin_72_108.csv](https://blackpearl.blackgem.org/regalade_thin_72_108.csv)
+* [https://blackpearl.blackgem.org/regalade_thin_108_144.csv](https://blackpearl.blackgem.org/regalade_thin_108_144.csv)
+* [https://blackpearl.blackgem.org/regalade_thin_144_180.csv](https://blackpearl.blackgem.org/regalade_thin_144_180.csv)
+* [https://blackpearl.blackgem.org/regalade_thin_180_216.csv](https://blackpearl.blackgem.org/regalade_thin_180_216.csv)
+* [https://blackpearl.blackgem.org/regalade_thin_216_252.csv](https://blackpearl.blackgem.org/regalade_thin_216_252.csv)
+* [https://blackpearl.blackgem.org/regalade_thin_252_288.csv](https://blackpearl.blackgem.org/regalade_thin_252_288.csv)
+* [https://blackpearl.blackgem.org/regalade_thin_288_324.csv](https://blackpearl.blackgem.org/regalade_thin_288_324.csv)
+* [https://blackpearl.blackgem.org/regalade_thin_324_360.csv](https://blackpearl.blackgem.org/regalade_thin_324_360.csv)
+
+Please feel free to contact me if you encounter any issues accessing or downloading the data.
