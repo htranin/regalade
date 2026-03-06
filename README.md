@@ -18,7 +18,7 @@ By merging data from curated galaxy catalogs and deep surveys, REGALADE provides
   - Pan-STARRS  
 - Additional cross-matching removes duplicates and combines independent distance measurements.  
 
-A paper describing REGALADE has been submitted to *A&A* and is available on [arXiv:2508.13267](https://arxiv.org/abs/2508.13267), including case studies on:
+The paper describing REGALADE and published to *A&A* is available on [arXiv:2508.13267](https://arxiv.org/abs/2508.13267) (DOI [10.1051/0004-6361/202556896](https://ui.adsabs.harvard.edu/link_gateway/2026A&A...706A.284T/doi:10.1051/0004-6361/202556896)), including case studies on:
 - Optical transients  
 - Gravitational-wave target selection  
 - Ultraluminous X-ray sources  
