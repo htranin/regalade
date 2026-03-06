@@ -54,7 +54,7 @@ Scripts:
 ## Data Access
 
 The REGALADE catalog is available on VizieR at the following link:
-[https://vizier.cds.unistra.fr/viz-bin/VizieR-3?-source=J/A%2bA/706/A284/regalade](https://vizier.cds.unistra.fr/viz-bin/VizieR-3?-source=J/A%2bA/706/A284/regalade)
+https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/706/A284#/browse
 
 An interactive visualization is also available at:
 [https://blackpearl.blackgem.org/regalade.php](https://blackpearl.blackgem.org/regalade.php)
