@@ -25,6 +25,24 @@ The paper describing REGALADE and published to *A&A* is available on [arXiv:2508
 
 ---
 
+## REGALADEv2
+
+**REGALADEv2** revises the distance and redshift assignments of the original catalog and adds Simbad cross-matching for nearby galaxies. Key changes:
+
+- **New distance priority** (D column): HECATE > DESI DR1 > NED-LVS-z > Cosmicflows > NED-LVS-D > NED-LVS-rest > unchanged
+- **New redshift priority** (z column): DESI DR1 > NED-LVS-z > NED-LVS-rest > unchanged. Galaxies from distance-only catalogs (Cosmicflows, NED-LVS-D) that have no Simbad redshift have `z` set to NaN.
+- **Catastrophic outlier guard**: galaxies with `D < 100 / R1` (D in Mpc, R1 in arcsec) have their distance replaced with `D_tmean`.
+- **Derived quantity updates**: `absgmag` and `logM` are recomputed whenever D changes.
+- **Simbad cross-matching** (D < 200 Mpc, 5 arcsec radius): best match selected by reference count. Simbad redshifts replace catalog z for distance-only sources; significant discrepancies (`|z − z_simbad| > 0.1·z + 0.001`) are flagged.
+- **New columns**: `ref_z_in`, `match_offset`, `simbad_z`, `f_simbad_zdiscrepancy`
+
+The script `fix_distances.py` reproduces the v2 catalog from REGALADEv1.
+
+The REGALADEv2 FITS file (~10 GB) is available at:
+[Google Drive link — coming soon](#)
+
+---
+
 ## Repository Contents
 
 This repository contains code to reproduce the building of REGALADE and generate figures from the article.
@@ -35,7 +53,8 @@ Scripts:
 - `compute_distance.py` – add distance metrics (`D_tmean`, `D_input`, `n_dist`), remove `D > 2000 Mpc`, and save a slim master catalog  
 - `clean_duplicates.py` – remove residual duplicates  
 - `add_magnitudes.py` – match the master catalog to photometry from deep surveys and add magnitude columns  
-- `remove_contaminants.py` – apply cleaning criteria (Section 3.5 of the paper) to remove stars, clumps, artifacts, etc.  
+- `remove_contaminants.py` – apply cleaning criteria (Section 3.5 of the paper) to remove stars, clumps, artifacts, etc.
+- `fix_distances.py` – generate REGALADEv2 with revised distances, redshifts, and Simbad cross-matching
 
 ---
 
