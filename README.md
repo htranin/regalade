@@ -36,6 +36,8 @@ The paper describing REGALADE and published to *A&A* is available on [arXiv:2508
 - **Simbad cross-matching** (D < 200 Mpc, 5 arcsec radius): best match selected by reference count. Simbad redshifts replace catalog z for distance-only sources; significant discrepancies (`|z − z_simbad| > 0.1·z + 0.001`) are flagged.
 - **New columns**: `ref_z_in`, `match_offset`, `simbad_z`, `f_simbad_zdiscrepancy`
 
+> **Input catalog versions**: prior to this processing, the HECATE and NED-LVS input catalogs were updated to **HECATEv2** and **NED-LVS v20250602** respectively.
+
 The script `fix_distances.py` reproduces the v2 catalog from REGALADEv1.
 
 The REGALADEv2 FITS file (~10 GB) is available at:
