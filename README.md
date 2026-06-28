@@ -41,7 +41,7 @@ The paper describing REGALADE and published to *A&A* is available on [arXiv:2508
 The script `fix_distances.py` reproduces the v2 catalog from REGALADEv1.
 
 The REGALADEv2 FITS file (~10 GB) is available at:
-[Google Drive link — coming soon](#)
+[Google Drive link](https://drive.google.com/file/d/1vVdR_KphBTL9E17xl4cadF1HYW_A6Zis/view?usp=sharing)
 
 ---
 
