@@ -31,9 +31,8 @@ The paper describing REGALADE and published to *A&A* is available on [arXiv:2508
 
 - **New distance priority** (D column): HECATE > DESI DR1 > NED-LVS-z > Cosmicflows > NED-LVS-D > NED-LVS-rest > unchanged
 - **New redshift priority** (z column): DESI DR1 > NED-LVS-z > NED-LVS-rest > unchanged. Galaxies from distance-only catalogs (Cosmicflows, NED-LVS-D) that have no Simbad redshift have `z` set to NaN.
-- **Catastrophic outlier guard**: galaxies with `D < 100 / R1` (D in Mpc, R1 in arcsec) have their distance replaced with `D_tmean`.
-- **Derived quantity updates**: `absgmag` and `logM` are recomputed whenever D changes.
-- **Simbad cross-matching** (D < 200 Mpc, 5 arcsec radius): best match selected by reference count. Simbad redshifts replace catalog z for distance-only sources; significant discrepancies (`|z − z_simbad| > 0.1·z + 0.001`) are flagged.
+- **Distance-size outlier guard**: galaxies with `D < 100 / R1` (D in Mpc, R1 in arcsec) have their distance replaced with `D_tmean`.
+- **Simbad cross-matching** (D < 200 Mpc, 5 arcsec radius): Simbad redshifts replace catalog z for distance-only sources; significant discrepancies (`|z − z_simbad| > 0.1·z + 0.001`) are flagged.
 - **New columns**: `ref_z_in`, `match_offset`, `simbad_z`, `f_simbad_zdiscrepancy`
 
 > **Input catalog versions**: prior to this processing, the HECATE and NED-LVS input catalogs were updated to **HECATEv2** and **NED-LVS v20250606** respectively.
