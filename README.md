@@ -78,6 +78,7 @@ https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/706/A284
 
 An interactive visualization is also available at:
 [https://blackpearl.blackgem.org/regalade.php](https://blackpearl.blackgem.org/regalade.php)
+**New:** We provide a TNS transient match browser at: [https://blackpearl.blackgem.org/tns_matches.php](https://blackpearl.blackgem.org/tns_matches.php)
 
 The full catalog can be downloaded as a single **FITS file (10 GB)**:
 [https://drive.google.com/file/d/10CJa5xheifY03dOboTlhM_fvruNXxHor/view?usp=drive_link](https://drive.google.com/file/d/10CJa5xheifY03dOboTlhM_fvruNXxHor/view?usp=drive_link)
